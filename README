@@ -34,7 +34,7 @@ Styles
 =======
 
 You can customize the display of the output message using CSS. Just throw the 
-styles in your style sheet. Here's some examples:
+styles in your style sheet. Here are some examples:
 
 #ie-no-more-container {
   background: #FFFFCC;
