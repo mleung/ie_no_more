@@ -16,7 +16,7 @@ Throw this in your application layout, and do your part making IE6 go the way of
 You can also conditionally hide or show parts of your app if it is IE:
 
 <% hide_if_ie6 do %>
-  # No specific ie code
+  # Non specific ie code
 <% end %>
 
 <% show_if_ie6 do %>
