@@ -11,13 +11,29 @@ Example
 
 Throw this in your application layout, and do your part making IE6 go the way of velcro. 
 
-<%= smack_down_ie %>
+<%= smack_down_ie6 %>
+
+You can also conditionally hide or show parts of your app if it is IE:
+
+<% hide_if_ie6 do %>
+  # No specific ie code
+<% end %>
+
+<% show_if_ie6 do %>
+  # Specific ie code
+<% end %>
+
+Message
+========
+
+If you'd like to customize the output message, just go into app/views/ie_no_more 
+and go to town on the _ie_upgrade_message partial. 
 
 
 Styles
 =======
 
-You can customize the look using CSS. Just throw the 
+You can customize the display of the output message using CSS. Just throw the 
 styles in your style sheet. Here's some examples:
 
 #ie-no-more-container {
@@ -43,4 +59,4 @@ styles in your style sheet. Here's some examples:
 }
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 Michael Leung and Elliott Draper, released under the MIT license
