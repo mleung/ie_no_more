@@ -9,5 +9,30 @@ Example
 
 Example goes here.
 
+Styles
+=======
+
+#ie-no-more-container {
+  background: #FFFFCC;
+  border: 1px solid #FF9933;
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 20px;
+}
+
+#ie-no-more-container p {
+  margin-top: 5px;
+}
+
+#ie-no-more-container ul {
+  padding: 10px 0 0 1px;
+  list-style: none;
+}
+
+#ie-no-more-close-button {
+  float: right;
+}
+
 
 Copyright (c) 2009 [name of plugin creator], released under the MIT license
