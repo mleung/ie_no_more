@@ -45,15 +45,6 @@ styles in your style sheet. Here are some examples:
   padding: 20px;
 }
 
-#ie-no-more-container p {
-  margin-top: 5px;
-}
-
-#ie-no-more-container ul {
-  padding: 10px 0 0 1px;
-  list-style: none;
-}
-
 #ie-no-more-close-button {
   float: right;
 }
