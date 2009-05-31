@@ -22,7 +22,6 @@ catch(err) {
   // Must be prototype
 }
 
-// I actually haven't tested this yet!
 try {
   // If Prototype, then this will happen...
   Event.observe(window, 'load', function() {
