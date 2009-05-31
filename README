@@ -26,11 +26,12 @@ You can also conditionally hide or show parts of your app if it is IE:
 JavaScript
 =========
 
-If you want the close button to use ajax, simple add this line to your application layout:
+Since the close button uses ajax, you'll have to throw this in the head of your layout:
 
 <%= javascript_include_tag "ie_no_more.js" %>
 
 The file is automatically copied to your public/javascripts directory when this plugin is installed.
+This works with both jquery and prototype.
 
 Message
 ========
@@ -59,4 +60,4 @@ styles in your style sheet. Here are some examples:
 }
 
 
-Copyright (c) 2009 Michael Leung and Elliott Draper, released under the MIT license
+Copyright (c) 2009 Michael Leung, released under the MIT license

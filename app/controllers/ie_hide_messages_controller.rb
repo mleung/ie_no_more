@@ -4,7 +4,6 @@ class IeHideMessagesController < ApplicationController
     cookies[:hide_ie_no_more_message] = '1'
     
     respond_to do |format|
-      format.html { redirect_to '/' }
       format.js { render :nothing => true }
     end
   end
