@@ -6,7 +6,11 @@ our attempt at making the world a better place.
 
 We're altruistic philanthropic idealists, if you will.
 
-Example
+Installation
+========
+script/plugin install git://github.com/mleung/ie_no_more.git
+
+Usage
 =======
 
 Throw this in your application layout, and do your part making IE6 go the way of velcro. 
