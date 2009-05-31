@@ -3,7 +3,7 @@
 module IENoMore
   
   def smack_down_ie6
-    render :partial => "ie_no_more/ie_upgrade_message" if is_ie6? && !cookie_set?
+    render :partial => "ie_no_more/ie_upgrade_message" if is_ie6? 
   end
   
   def hide_if_ie6

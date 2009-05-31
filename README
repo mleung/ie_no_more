@@ -23,6 +23,15 @@ You can also conditionally hide or show parts of your app if it is IE:
   # Specific ie code
 <% end %>
 
+JavaScript
+=========
+
+If you want the close button to use ajax, simple add this line to your application layout:
+
+<%= javascript_include_tag "ie_no_more.js" %>
+
+The file is automatically copied to your public/javascripts directory when this plugin is installed.
+
 Message
 ========
 

@@ -2,7 +2,11 @@ class IeHideMessagesController < ApplicationController
   # This is used to close the message and hide it forever.
   def create
     cookies[:hide_ie_no_more_message] = '1'
-    redirect_to '/'
+    
+    respond_to do |format|
+      format.html { redirect_to '/' }
+      format.js { render :nothing => true }
+    end
   end
   
 end
